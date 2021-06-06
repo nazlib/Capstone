@@ -1,26 +1,15 @@
-# Evaluate a News Article with Natural Language Processing
+# Capstone
 
-This project you to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites.
-
-The goal of this project is to give you practice with:
-- Setting up Webpack
-- Sass styles
-- Webpack Loaders and Plugins
-- Creating layouts and page design
-- Service workers
-- Using APIs and creating requests to external urls
+This is the Capstone project of Udacity Frontend Nanodegree.
+User enters city name , selects date and than Webpage displays four day weather forecast and  a few pictures about city
 
 
-> Natural language processing (NLP) is a subfield of computer science, information engineering, and artificial intelligence
-concerned with the interactions between computers and human (natural) languages, in particular how to program computers to
-process and analyze large amounts of natural language data.
+## API
+-[GeoNames](https://www.geonames.org/export/web-services.html).
 
-## Meaning Cloud Api
+-[WeatherApi](https://www.weatherbit.io/).
 
-Sentiment Analysis is MeaningCloud's solution for performing a detailed multilingual sentiment analysis of texts from different sources.
-
-### Signup for an API key
-First, you will need to go [here](https://www.meaningcloud.com/developer/create-account). Signing up will get you an API key. You can take a look at [request](https://learn.meaningcloud.com/developer/sentiment-analysis/2.1/doc/request).
+-[Pixabay](https://pixabay.com/api/docs/#api_javascript_example).
 
 ## Install and Run Project
 Install the SDK in your project and then we'll be ready to set up your server/index.js file.
