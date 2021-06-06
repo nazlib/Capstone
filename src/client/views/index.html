@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="">
+            Logo
+        </div>
+        <div class="">
+            navigation
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <form class="" onsubmit="return Client.handleSubmit(event)">
+                <input id="city" type="text" name="city" value="" placeholder="city">
+                <div class="row">
+                    <div class="col-large-6"> Start Date <input type="date" id="start-date"></div>
+                    <div class="col-large-6"> End Date<input type="date" id="end-date"></div>
+                </div>
+                <input type="submit" name="" class="btn-primary" value="submit" onclick="return Client.handleSubmit(event)"
+                    onsubmit="return Client.handleSubmit(event)">
+            </form>
+        </section>
+
+        <section>
+            <div class="card">
+                <div class="card-header">
+                    Weather Forecast
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <div id="picture"></div>
+                        <div id="weather" class="row"></div> 
+                        <div id="sub-pic"></div>                      
+                    </blockquote>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>This is a footer</p>
+    </footer>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+</body>
+
+</html>
