@@ -28,7 +28,7 @@ async function weatherData(geoLocation) {
                     <h6>High => ${element.high_temp} Low => ${element.high_temp} </h6>
                 </div>
                 <div class="weather-card-icon">
-                    <img src="../src/client/assets/${element.weather.icon}.png">
+                    <img src="https://www.weatherbit.io/static/img/icons/${element.weather.icon}.png">
                     <h6>${element.valid_date}</h6>
                 </div>
             </div>
